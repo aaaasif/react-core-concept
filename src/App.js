@@ -13,7 +13,7 @@ function Person() {
     backgroundColor: 'skyblue',
     border:'3px solid lightgreen',
     margin: '20px',
-    borderRadious:
+    borderRadious: '20px',
   }
 }
 
