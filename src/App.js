@@ -15,9 +15,9 @@ function Person() {
     margin: '20px',
     borderRadious: '20px',
   }
+  return (
+    
+  )
 }
 
-return (
-
-)
 export default App;
