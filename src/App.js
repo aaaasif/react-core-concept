@@ -16,7 +16,10 @@ function Person() {
     borderRadious: '20px',
   }
   return (
-    
+    <div style={{backgroundColor:'skyblue', border:'3px solid lightsalmon', margin: '20px', borderRadious: '10px'}}>
+      <h1>Name: Sakib Al Hasan</h1>
+      <h4>Profession: Cricket</h4>
+    </div>
   )
 }
 
