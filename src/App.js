@@ -4,12 +4,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      
+      <Person></Person>
+      <Person></Person>
+      <Person></Person>
     </div>
   )
 }
 function Person() {
-  const persoon = {
+  const person = {
     backgroundColor: 'skyblue',
     border:'3px solid lightgreen',
     margin: '20px',
