@@ -3,6 +3,14 @@ import './App.css';
 
 function App() {
   const players = ['Rubel', 'Sakib','Tamim', 'Mahamudullah','Ronaldo' ]
+  const sportsman =[
+    {name:'Rubel', profession:'Bowler'},
+    {name:'Sakib', profession:'Allrounder'},
+    {name:'Tamim', profession:'Batsman'},
+    {name:'Mahamudullah', profession:'Captain'},
+    {name:'Ronaldo', profession:'Footbaler'},
+    {name:'Messi', profession:'Footbal'}
+  ]
   return (
     <div className="App">
       <a href="https://www.google.com/">googe</a>
@@ -12,7 +20,7 @@ function App() {
           players.map(player => <li>{player}</li>)
         }
       </ul>
-      {players.map(player => <Person name={Person.name} profession={Person.skill}></Person>)}
+      sportsman.map(sportman => <Person></Person>)
     </div>
   )
 }
