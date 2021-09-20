@@ -12,13 +12,13 @@ function App() {
 }
 function Person() {
   const person = {
-    // backgroundColor: 'skyblue',
-    // border:'3px solid lightgreen',
-    // margin: '20px',
-    // borderRadious: '20px'
+    backgroundColor: 'skyblue',
+    border:'3px solid lightgreen',
+    margin: '20px',
+    borderRadious: '10px'
   }
   return (
-    <div style={{backgroundColor:'skyblue', border:'3px solid lightsalmon', margin: '20px', borderRadious: '20px'}}>
+    <div style={person}>
       <h1>Name: Sakib Al Hasan</h1>
       <h4>Profession: Cricket</h4>
     </div>
