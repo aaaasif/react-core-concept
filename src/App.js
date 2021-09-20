@@ -12,11 +12,7 @@ function App() {
           players.map(player => <li>{player}</li>)
         }
       </ul>
-      <Person name='Rubel' skill='bowler'></Person>
-      <Person name='sakib' skill='all Rounder'></Person>
-      <Person name='Tamim' skill='batsman'></Person>
-      <Person name='Mahamudullah' skill='Captain'></Person>
-      <Person name='Ronaldo' skill='Footballer'></Person>
+      {players.map(player => <Person name={Person.name} profession={Person.skill}></Person>)}
     </div>
   )
 }
