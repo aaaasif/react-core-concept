@@ -4,23 +4,28 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Person></Person>
-      <Person></Person>
-      <Person></Person>
+      <a href="https://www.google.com/">googe</a>
+      <p>titale</p>
+      <Person name='Rubel' skill='bowler'></Person>
+      <Person name='sakib' skill='all Rounder'></Person>
+      <Person name='Tamim' skill='batsman'></Person>
+      <Person name='Mahamudullah' skill='Captain'></Person>
+      <Person name='Ronaldo' skill='Footballer'></Person>
     </div>
   )
 }
-function Person() {
+function Person(props) {
+  console.log(props);
   const person = {
     backgroundColor: 'skyblue',
     border:'3px solid lightgreen',
-    margin: '20px',
-    borderRadious: '10px'
+    margin: '30px',
+    borderRadius: '10px'
   }
   return (
     <div style={person}>
-      <h1>Name: Sakib Al Hasan</h1>
-      <h4>Profession: Cricket</h4>
+      <h1>Name: {props.name}</h1>
+      <h4>Profession: {props.skill}</h4>
     </div>
   )
 }
