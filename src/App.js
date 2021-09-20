@@ -2,10 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const players = ['Rubel', 'Sakib','Tamim', 'Mahamudullah','Ronaldo' ]
   return (
     <div className="App">
       <a href="https://www.google.com/">googe</a>
       <p>titale</p>
+      <ul>
+        {
+          players.map(player => <li>{player}</li>)
+        }
+      </ul>
       <Person name='Rubel' skill='bowler'></Person>
       <Person name='sakib' skill='all Rounder'></Person>
       <Person name='Tamim' skill='batsman'></Person>
